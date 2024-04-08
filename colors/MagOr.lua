@@ -61,7 +61,7 @@ Group.new("@property.cpp", colors.white, colors.any, styles.bold)
 Group.new("@property", colors.white, colors.any, styles.bold)
 Group.new("Structure", colors.white, colors.any, styles.bold)
 
-Group.new("cppStructure", colors.white, colors.any, styles.bold)
+Group.new("cppstructure", colors.any, colors.orange, styles.bold)
 
 Group.new("@constructor.cpp", colors.white, colors.any, styles.bold)
 
