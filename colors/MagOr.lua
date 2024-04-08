@@ -1,4 +1,4 @@
-require("colorbuddy").colorscheme("konrad")
+require("colorbuddy").colorscheme("MagOr")
 local colorbuddy = require("colorbuddy")
 
 local Color = colorbuddy.Color
