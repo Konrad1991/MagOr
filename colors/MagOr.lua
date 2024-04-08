@@ -49,7 +49,7 @@ Group.new("Function", colors.black, colors.magenta, styles.bold)
 Group.new("@function.cpp", colors.black, colors.magenta, styles.bold)
 Group.new("@function.call.cpp", colors.black, colors.magenta, styles.bold)
 
--- Group.new("Special", colors.black, colors.magenta, styles.bold)
+Group.new("Special", colors.black, colors.magenta, styles.bold)
 Group.new("Variable", colors.white, None, styles.bold)
 Group.new("@variable.member.cpp", colors.white, None, styles.bold)
 Group.new("@variable.parameter", colors.white, None, styles.bold)
@@ -60,6 +60,9 @@ Group.new("@parameter", colors.white, colors.any, styles.bold)
 Group.new("@property.cpp", colors.white, colors.any, styles.bold)
 Group.new("@property", colors.white, colors.any, styles.bold)
 Group.new("Structure", colors.white, colors.any, styles.bold)
+
+Group.new("cppStructure", colors.white, colors.any, styles.bold)
+
 Group.new("@constructor.cpp", colors.white, colors.any, styles.bold)
 
 Group.new("Type", colors.orange, colors.any, styles.bold)
