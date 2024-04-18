@@ -49,6 +49,9 @@ local function setup_cpp_colors()
 	Group.new("@lsp.type.typeParameter.cpp", colors.orange, nil, bold)
 	Group.new("@lsp.type.typeParameter.cpp", colors.orange, nil, bold)
 
+	Group.new("@type.builtin.cpp")
+	Group.new("@keyword.modifier.cpp")
+
 	-- Group.new("Type", colors.orange, nil, styles.bold)
 	-- Group.new("@operator.cpp", colors.operator, nil, styles.bold)
 	-- Group.new("@punctuation.bracket", colors.operator, nil, styles.bold)
