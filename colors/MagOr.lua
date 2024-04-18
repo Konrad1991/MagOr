@@ -64,6 +64,7 @@ local function setup_cpp_colors()
 	Group.new("@keyword.return.cpp", colors.key, nil, bold)
 	Group.new("@keyword.cpp", colors.key, nil, bold)
 	Group.new("@function.cpp", colors.key, nil, bold)
+	Group.new("@punctuation.bracket.cpp", colors.key, nil, bold)
 
 	-- Group.new("Type", colors.orange, nil, styles.bold)
 	-- Group.new("@operator.cpp", colors.operator, nil, styles.bold)
