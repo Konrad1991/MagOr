@@ -58,7 +58,7 @@ local function setup_cpp_colors()
 	Group.new("@lsp.type.function.cpp", colors.black, colors.magenta, bold)
 	Group.new("@lsp.type.class.cpp", colors.black, colors.magenta, bold)
 
-	Group.new("@lsp.mod.classScope.cpp", colors.blue, colors.magenta, bold)
+	--Group.new("@lsp.mod.classScope.cpp", colors.blue, colors.magenta, bold)
 
 	Group.new("@lsp.type.typeParameter.cpp", colors.orange, nil, bold)
 	Group.new("@lsp.type.typeParameter.cpp", colors.orange, nil, bold)
