@@ -44,7 +44,7 @@ Group.new("Visual", colors.none, colors.visual, bold)
 
 local function setup_cpp_colors()
 	Group.new("@number.cpp", colors.cyan, nil, styles.bold)
-	Group.new("@function.cpp", colors.black, colors.cyan, styles.bold)
+	Group.new("@function.cpp", colors.black, colors.magenta, styles.bold)
 	Group.new("@function.call.cpp", colors.black, colors.magenta, styles.bold)
 	Group.new("cppstructure", colors.orange, nil, styles.bold)
 	Group.new("@variable.member.cpp", colors.white, nil, styles.bold)
