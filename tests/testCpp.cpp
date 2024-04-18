@@ -10,6 +10,11 @@ private:
   L l;
   R r;
   std::common_type_t<L, R> res;
+
+  using ct = std::common_type_t<L, R>;
+
+public:
+  ct operator()() { return res; }
 };
 
 int main(int argc, char *argv[]) {

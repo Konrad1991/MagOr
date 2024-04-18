@@ -50,6 +50,7 @@ local function setup_cpp_colors()
 	Group.new("@lsp.type.typeParameter.cpp", colors.orange, nil, bold)
 	Group.new("@lsp.type.class.cpp", colors.orange, nil, bold)
 	Group.new("@lsp.type.type.cpp", colors.orange, nil, bold)
+	Group.new("@lsp.typemod.operator.declaration.cpp", colors.orange, nil, bold)
 
 	Group.new("@type.builtin.cpp", colors.orange, nil, bold)
 	Group.new("@keyword.modifier.cpp", colors.orange, nil, bold)
