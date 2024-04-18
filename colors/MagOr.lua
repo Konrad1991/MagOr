@@ -61,6 +61,7 @@ local function setup_cpp_colors()
 	Group.new("@lsp.type.method.cpp", colors.black, colors.magenta, bold)
 	Group.new("@lsp.type.unknown.cpp", colors.black, colors.magenta, bold)
 
+	Group.new("@type.cpp", colors.orange, nil, bold)
 	Group.new("@function.call.cpp", colors.black, colors.magenta, bold)
 	Group.new("@type.builtin.cpp", colors.orange, nil, bold)
 	Group.new("@type.definition.cpp", colors.orange, nil, bold)
