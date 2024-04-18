@@ -7,6 +7,9 @@ local styles = colorbuddy.styles
 local bold = styles.BOLD
 
 Color.new("background", "#24283b")
+local background_string = "#111111"
+Color.new("gray0", background_string)
+
 Color.new("white", "#FFFFFF")
 Color.new("red", "#9e2f2f")
 Color.new("pink", "#b8237c")
