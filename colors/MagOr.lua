@@ -68,22 +68,22 @@ local function setup_cpp_colors()
 	Group.new("@lsp.type.property.cpp", colors.white, nil, bold)
 
 	-- groups which are not exact
-	Group.new("@keyword.cpp", colors.key, nil, bold)
-	Group.new("@function.cpp", colors.key, nil, bold)
-	Group.new("@operator.cpp", colors.key, nil, bold)
-	Group.new("@punctuation.bracket.cpp", colors.key, nil, bold)
-	Group.new("@punctuation.delimiter.cpp", colors.key, nil, bold)
-	Group.new("@keyword.return.cpp", colors.key, nil, bold)
+	-- Group.new("@keyword.cpp", colors.key, nil, bold)
+	-- Group.new("@function.cpp", colors.key, nil, bold)
+	-- Group.new("@operator.cpp", colors.key, nil, bold)
+	-- Group.new("@punctuation.bracket.cpp", colors.key, nil, bold)
+	-- Group.new("@punctuation.delimiter.cpp", colors.key, nil, bold)
+	-- Group.new("@keyword.return.cpp", colors.key, nil, bold)
 
-	Group.new("@function.call.cpp", colors.black, colors.magenta, bold)
-	Group.new("@function.method.call.cpp", colors.black, colors.magenta, bold)
+	-- Group.new("@function.call.cpp", colors.black, colors.magenta, bold)
+	-- Group.new("@function.method.call.cpp", colors.black, colors.magenta, bold)
 
-	Group.new("@type.cpp", colors.orange, nil, bold)
-	Group.new("@type.builtin.cpp", colors.orange, nil, bold)
-	Group.new("@type.definition.cpp", colors.orange, nil, bold)
-	Group.new("@keyword.modifier.cpp", colors.orange, nil, bold)
+	-- Group.new("@type.cpp", colors.orange, nil, bold)
+	-- Group.new("@type.builtin.cpp", colors.orange, nil, bold)
+	-- Group.new("@type.definition.cpp", colors.orange, nil, bold)
+	-- Group.new("@keyword.modifier.cpp", colors.orange, nil, bold)
 
-	Group.new("@variable.builtin.cpp", colors.white, nil, bold)
+	-- Group.new("@variable.builtin.cpp", colors.white, nil, bold)
 end
 
 local function setup_lua_colors()
